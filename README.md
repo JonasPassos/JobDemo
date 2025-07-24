@@ -1,27 +1,35 @@
+# JobDemo
 
-## Documentação da API
+API RESTful para gerenciamento de vagas de emprego, desenvolvida com ASP.NET Core, C# e Entity Framework Core.
 
-#### Retorna todos os itens
+## 🚀 Funcionalidades
 
-```http
-  GET /api/items
-```
+- Cadastro, edição, listagem e remoção de vagas de emprego (CRUD)
+- Autenticação e autorização via JWT
+- Controle de acesso baseado em usuários autenticados
+- Validação e tratamento de erros
+- Integração com banco de dados SQL Server
 
-| Parâmetro   | Tipo       | Descrição                           |
-| :---------- | :--------- | :---------------------------------- |
-| `api_key` | `string` | **Obrigatório**. A chave da sua API |
+## 🛠 Tecnologias utilizadas
 
-#### Retorna um item
+- C#  
+- ASP.NET Core  
+- Entity Framework Core  
+- JWT (JSON Web Tokens)  
+- SQL Server  
+- Git  
 
-```http
-  GET /api/items/${id}
-```
+## 📦 Como executar o projeto
 
-| Parâmetro   | Tipo       | Descrição                                   |
-| :---------- | :--------- | :------------------------------------------ |
-| `id`      | `string` | **Obrigatório**. O ID do item que você quer |
+### Pré-requisitos
 
-#### add(num1, num2)
+- [.NET 7 SDK](https://dotnet.microsoft.com/download)  
+- SQL Server instalado e configurado  
+- Visual Studio 2022 ou VS Code (ou outro editor de sua preferência)
 
-Recebe dois números e retorna a sua soma.
+### Passos para rodar
 
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/JonasPassos/JobDemo.git
